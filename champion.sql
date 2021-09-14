@@ -1,6 +1,7 @@
 CREATE TABLE champion (
 	champion_name varchar(15) NOT NULL);
 
+/* Champions as of 09/13/2021. Total 156. */
 INSERT INTO champion VALUES
 	('Aatrox'),
 	('Ahri'),
