@@ -2,7 +2,7 @@ CREATE TABLE champion (
 	name varchar(15) NOT NULL PRIMARY KEY,
 	description varchar(30) NOT NULL,
 	class varchar(20) NOT NULL,
-	release_date varchar(10) NOT NULL
+	release_date date NOT NULL
 	);
 
 /* Champions as of 09/13/2021. Total 156. */
